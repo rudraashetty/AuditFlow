@@ -31,4 +31,4 @@ async def analyze(data: dict):
             "advice": "Keep up the good work!" if complexity < 5 else "Consider breaking down your functions."
         }
     except Exception as e:
-        return {"error": str(e)}
+        return {"error": str(e)}# refresh
